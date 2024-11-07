@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "armadillo_scute_armor",
+	"version": "${version}",
+	"name": "ArmadilloScuteArmor",
+	"description": "This mod adds Armadillo Scute Armor.",
+	"authors": [
+		"Kamieniasty, Lupin"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/armadillo_scute_armor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kamieniasty.armadillo_scute_armor.ArmadilloScuteArmor"
+		],
+		"fabric-datagen": [
+			"com.kamieniasty.armadillo_scute_armor.ArmadilloScuteArmorDataGenerator"
+		]
+	},
+	"mixins": [
+		"armadillo_scute_armor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

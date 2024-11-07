@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.kamieniasty.armadillo_scute_armor.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
